@@ -5,5 +5,5 @@ A null movement script made in python.
 ### Oh and yeah "How to execute it?"
 ## add your user to the input group: `sudo usermod -aG input $USER`
 now
-## `python3 accuracy.py`
+## type `python3 accuracy.py` in your terminal
 to exit, press `CTRL+C` simultaneously.
