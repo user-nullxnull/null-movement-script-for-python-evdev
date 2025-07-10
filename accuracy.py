@@ -71,7 +71,7 @@ try:
                     ui.write(ecodes.EV_KEY, k, 1 if desired_sending[k] else 0)
                     ui.syn()
                     sending_state[k] = desired_sending[k]
-                    print(f"Injected {k} {'down' if desired_sending[k] else 'up'}")  # Debug output
+                    print(f"Pressed {k} {'down' if desired_sending[k] else 'up'}")  # Debug output
         else:
             # Pass through all other events unchanged
             ui.write(event.type, event.code, event.value)
