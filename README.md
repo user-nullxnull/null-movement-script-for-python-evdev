@@ -7,3 +7,5 @@ A null movement script made in python.
 now
 ## type `python3 accuracy.py` in your terminal
 to exit, press `CTRL+C` simultaneously.
+
+if the script is glitchy, try to restart it (works everytime)
